@@ -1,0 +1,466 @@
+body {
+    padding: 0px;
+}
+
+
+/* common css class */
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.flex-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+/*---------------------*/
+
+.title-header {
+    text-align: center;
+    /* margin-top: 20px; */
+}
+
+.img30 {
+    width: 160px;
+    height: 200px;
+}
+
+.pd10 {
+    padding: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.mgt-30 {
+    margin-top: 48px;
+}
+
+.ground {
+    background-image: url('image/backgroud.jpeg');
+    color: white;
+}
+
+.block-1-content {
+    margin: 0 138px;
+    padding-top: 20px;
+    padding-bottom: 68px;
+}
+
+.wrap-content {
+    margin-top: 20px;
+    margin-left: 121px;
+    margin-right: 75px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid white;
+    border-bottom: 1px solid white;
+    border-left: 1px solid white;
+}
+
+.text-title:after {
+    content: "";
+    width: 67.6px;
+    height: 1px;
+    background-color: white;
+    display: inline-block;
+}
+
+.text-title:before {
+    content: "";
+    display: inline-block;
+    width: 63px;
+    height: 1px;
+    background-color: white;
+}
+
+.text-title {
+    position: relative;
+    top: -11px;
+    font-size: 13px;
+}
+
+.detail-content {
+    word-break: break-all;
+    padding: 20px;
+}
+
+.content2-title {
+    display: inline;
+}
+
+.akusatitle {
+    font-weight: bold;
+    color: blue;
+}
+
+.font-weight {
+    font-weight: 600;
+    color: #2b2b8a;
+    font-size: x-large;
+    margin-top: 20px;
+    margin-left: -34px;
+}
+
+.img {
+    float: right;
+    margin-right: -115px;
+}
+
+.go-to-up {
+    height: 50px;
+    position: relative;
+    text-align: center;
+}
+
+.curve {
+    position: absolute;
+    display: inline-block;
+    border: 24px solid transparent;
+    border-top: 24px solid white;
+}
+
+.block-2-content {
+    display: flex;
+    /* margin-left: 118px; */
+    margin-top: 17px;
+}
+
+.block-2-text {
+    /* width: 50%; */
+    /* text-align: start; */
+    display: block;
+    padding-left: 190px;
+}
+
+.block-2-img-content {
+    width: 50%;
+    margin-left: 0px;
+    z-index: -1;
+}
+
+.block-2-img {}
+
+.block-2-wrap {
+    margin: 0 151px;
+}
+
+.block-2-text .first-text {
+    text-decoration-line: underline;
+    /* float: right; */
+    color: #2b2b8a;
+    font-weight: 500;
+    line-height: 23px;
+    display: block;
+    font-size: 15px;
+    padding-left: 4px;
+}
+
+.block-2-text .second-text {
+    text-decoration-line: underline;
+    /* float: right; */
+    color: #de1010;
+    font-weight: bold;
+    line-height: 41px;
+    /* display: block; */
+    margin-top: 30px;
+    font-size: x-large;
+}
+
+
+/* block 3 */
+
+.block-3-wrap {
+    background-image: url("image/design.jpeg");
+}
+
+.block-3-content {
+    margin: 0px 138px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.kind-of-ensurance {
+    display: flex;
+    border: 2px solid white;
+    color: white;
+    height: 53px;
+    width: 308px;
+}
+
+.kind-of-ensurance .block-1 {
+    position: relative;
+    background-color: white;
+    color: black;
+    width: 15%;
+    vertical-align: middle;
+    display: flex;
+}
+
+.kind-of-ensurance .block-2 {
+    padding: 11px 14px;
+}
+
+.kind-of-ensurance .block-1 .arrow {
+    position: absolute;
+    display: inline-block;
+    border: 8px solid transparent;
+    border-left: 9px solid white;
+    left: 45px;
+    top: 15px;
+}
+
+.kind-of-ensurance .block-2 p {}
+
+.text-title-1 {
+    color: white;
+    /* font-size: x-large; */
+}
+
+.text-title-2 {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    color: white;
+}
+
+.list-ensurence {
+    display: flex;
+    margin-top: 68px;
+}
+
+.list-ensurence .item {
+    position: relative;
+    margin-left: 15px;
+}
+
+.list-ensurence .item .item-img {
+    width: 96px;
+    position: absolute;
+    top: -40px;
+    left: 75px;
+}
+
+.list-ensurence .item .item-img p {}
+
+.list-ensurence .item-content {
+    background: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+    width: 241px;
+    height: 234px;
+    color: #2b2b8a;
+    font-weight: 500;
+}
+
+.list-ensurence .item-content .title {
+    margin-top: -13px;
+    position: relative;
+}
+
+.list-ensurence .item-content .title h4 {
+    color: #2b2b8a;
+}
+
+.list-ensurence .item-content .title .women-plan {
+    height: 50px;
+    width: 50px;
+    background: pink;
+    border-radius: 50%;
+    word-break: break-word;
+    padding: 13px 2px;
+    position: absolute;
+    top: -2px;
+    left: 163px;
+    font-size: 13px;
+    color: white;
+}
+
+.list-ensurence .item-content .title .enter-line {
+    display: flex;
+    width: 61%;
+    margin-left: 47px;
+}
+
+.list-ensurence .item-content .title .enter-line .blue-line {
+    width: 70%;
+    height: 5px;
+    background-color: blue;
+    margin-right: 3px;
+    position: relative;
+}
+
+.list-ensurence .item-content .title .enter-line .red-line {
+    width: 30%;
+    height: 5px;
+    background-color: orangered;
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+.list-ensurence .item-content .title .enter-line .red-line::after {
+    content: "";
+}
+
+.list-ensurence .item-content .title p {
+    font-size: 14px;
+    color: #2b2b8a;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    background-color: #5a5353;
+    border-radius: 50%;
+    display: inline-block;
+    color: #cac4c4;
+}
+
+.list-ensurence .item-content .content-link {
+    word-break: break-word;
+    margin-top: 10px;
+}
+
+.list-ensurence .item-content .content-link p {}
+
+.list-ensurence .item-content .content-link .link {
+    border: 1px solid #2b2b8a;
+    padding: 9px;
+    font-size: 14px;
+}
+
+.list-ensurence .item-content .content-link .link .link-title {
+    margin-top: 0px;
+}
+
+.list-ensurence .item-content .content-link .dot {
+    margin-left: -10px;
+    position: relative;
+}
+
+.list-ensurence .item-content .content-link .dot span {
+    /* margin-top: 4px; */
+    position: absolute;
+    top: -4px;
+    left: 3px;
+}
+
+.heart-content {
+    color: white;
+    position: absolute;
+    font-family: fantasy;
+    top: -15px;
+    left: 115px;
+    z-index: 2;
+}
+
+.line {
+    border: 2px solid #2b2b8a;
+    height: 3px;
+    width: 100%;
+}
+
+.title-block {
+    position: relative;
+}
+
+.title-block .image {
+    position: absolute;
+    top: 34px;
+    left: 34px;
+}
+
+.title-block .block-text {
+    border: 2px solid white;
+    padding: 10px 90px;
+    color: white;
+    margin-top: 77px;
+    line-height: 1;
+    width: 769px;
+    text-align: center;
+    margin-bottom: 94px;
+}
+
+.block-4-wrap {
+    background-image: url("image/backgroud.jpeg");
+}
+
+
+/* block 4 css*/
+
+.block-4-content {
+    margin: 0 136px;
+}
+
+.block-4-content .content-1 {
+    display: flex;
+}
+
+.block-4-content .content-1 .text-content {
+    line-height: 1;
+    text-decoration: underline;
+    color: white;
+}
+
+.block-4-content .content-1 .image {
+    margin-left: 6px;
+    margin-top: -16px;
+}
+
+
+/*  content 2 */
+
+.content-2 {
+    display: flex;
+    color: white;
+}
+
+.content-2 .image {
+    width: 40%;
+    /* padding-left: 192px; */
+}
+
+.content-2 .image img {
+    float: right;
+}
+
+.content-2 .text-content {
+    width: 44%;
+}
+
+.content-2 .text-content .title {
+    font-size: 47px;
+    padding: 0 35px;
+}
+
+.content-2 .text-content .title-2-block {}
+
+.content-2 .text-content .title-2-block .group {}
+
+.content-2 .text-content .title-2-block .group .percent {}
+
+.content-2 .text-content .title-2-block .group .text {}
+
+.content-2 .text-content .title-2-block .line {}
+
+.line {}
+
+.content-2 .text-content .title-2-block .last-text {}
